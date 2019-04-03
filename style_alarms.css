@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url('res/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url('res/Montserrat/Montserrat-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+	font-family: "Pacifico";
+	src: url('res/Pacifico/Pacifico-Regular.ttf');
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url('res/FontAwesome.ttf');
+}
+
+body, html {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+	overflow: hidden;
+	user-select: none;
+}
+
+#bg {
+  background-image: url('res/bg1.jpg');
+  background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+	transform: scale(1.1);
+}
+
+#top {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#top-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 10px;
+}
+
+.icon-button {
+	font-size: 3em;
+	margin: 20px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
