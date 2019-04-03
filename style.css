@@ -123,6 +123,13 @@ i {
 	height: 100%;
 }
 
+#top-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 10px;
+}
+
 #weather i {
 	font-size: 4em;
 	margin: 30px;
@@ -135,6 +142,10 @@ i {
 #weather-text {
 	display: flex;
 	flex-direction: column;
+}
+
+#weather-desc {
+	margin-top: -20px;
 }
 
 #empty-space {

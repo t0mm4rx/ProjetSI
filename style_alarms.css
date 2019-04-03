@@ -37,6 +37,7 @@ body, html {
 #bg {
   background-image: url('res/bg1.jpg');
   background-size: cover;
+		background-position: center;
   filter: blur(5px);
   -webkit-filter: blur(5px);
   position: absolute;
